@@ -10,3 +10,4 @@ attendance_*.json
 *.db
 *.log
 
+recordings/
