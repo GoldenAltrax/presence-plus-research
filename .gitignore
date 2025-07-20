@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env/
+*.pickle
+credentials.json
+*.mp4
+recordings/
+attendance_*.json
+*.db
+*.log
+
