@@ -1,13 +1,79 @@
-__pycache__/
-*.pyc
-.env
-.env/
-*.pickle
-credentials.json
-*.mp4
-recordings/
-attendance_*.json
-*.db
-*.log
+# ==========================================
+# Python
+# ==========================================
 
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Secrets / Credentials
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+credentials.json
+client_secret*.json
+token.pickle
+token.json
+
+*.pem
+*.key
+*.p12
+
+# ==========================================
+# Presence+ generated data
+# ==========================================
+
+encodings.pickle
+*.pkl
+
+attendance_*.json
 recordings/
+logs/
+
+# ==========================================
+# Face / biometric data
+# ==========================================
+
+face_db/
+
+# ==========================================
+# Runtime / generated files
+# ==========================================
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+*.jpg
+*.jpeg
+*.png
+
+# ==========================================
+# OS
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# IDE
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
